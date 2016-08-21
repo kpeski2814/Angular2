@@ -22,11 +22,10 @@ System.register(['angular2/core'], function(exports_1, context_1) {
             //que plantilla va a usar
             AppComponent = (function () {
                 function AppComponent() {
-                    //Creando variables publicas
-                    this.titulo = "Hola Mundo";
                     this.pelicula = "Batman y Robin";
                     this.director = "Zack Snider";
                     this.anio = 2016;
+                    //this.holaMundo();
                 }
                 AppComponent = __decorate([
                     core_1.Component({
