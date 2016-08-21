@@ -7,7 +7,8 @@ import {Pelicula} from "./model/pelicula";
 //que plantilla va a usar
 @Component({
     selector: 'my-app',
-    templateUrl: "app/view/peliculas.html"
+    templateUrl: "app/view/peliculas.html",
+    styleUrls:["../assets/css/styles.css"]
 })
  
 // Clase del componente donde iran los datos y funcionalidades
