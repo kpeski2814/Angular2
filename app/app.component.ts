@@ -16,6 +16,7 @@ export class AppComponent {
 	//Creando variables publicas
 	public titulo:string="Peliculas con Angular2";
 	public pelicula:Pelicula;
+	public mostrarDatos:boolean;
 		
 	constructor(){
 		this.mostrarDatos=false;
@@ -34,7 +35,8 @@ export class AppComponent {
 	onHideShow(value){
 		this.mostrarDatos=value;
 	}
-}
+
+
 
 
 
