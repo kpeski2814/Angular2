@@ -22,11 +22,16 @@ System.register(['angular2/core'], function(exports_1, context_1) {
             //que plantilla va a usar
             AppComponent = (function () {
                 function AppComponent() {
+                    //Creando variables publicas
+                    this.titulo = "Hola Mundo";
+                    this.pelicula = "Batman y Robin";
+                    this.director = "Zack Snider";
+                    this.anio = "2016";
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "<h1>Hola mundo desde Angular</h1>"
+                        template: "<h1>{{titulo}}</h1>\n    \t\t\t\t<ul>\n\t\t\t\t\t<li>Titulo:<strong>{{pelicula}}</strong></li>\n\t\t\t\t\t<li>Director:<strong>{{director}}</strong></li>\n\t\t\t\t\t<li>A\u00F1o:<strong>{{anio}}</strong></li>\n\t\t\t\t</ul>"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
