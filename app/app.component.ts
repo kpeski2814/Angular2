@@ -5,7 +5,7 @@ import {Component} from 'angular2/core';
 //que plantilla va a usar
 @Component({
     selector: 'my-app',
-    templateUrl: "<h1>Hola mundo desde Angular</h1>"
+    template: "<h1>Hola mundo desde Angular</h1>"
 
 })
  
@@ -13,3 +13,4 @@ import {Component} from 'angular2/core';
 export class AppComponent { 
 	
 }
+

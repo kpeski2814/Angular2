@@ -26,7 +26,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        templateUrl: "<h1>Hola mundo desde Angular</h1>"
+                        template: "<h1>Hola mundo desde Angular</h1>"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
