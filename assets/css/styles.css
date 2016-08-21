@@ -4,3 +4,7 @@ h1{
 	text-decoration:underline;
 
 }
+.showingData{
+	display: none;
+
+}

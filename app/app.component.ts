@@ -18,6 +18,7 @@ export class AppComponent {
 	public pelicula:Pelicula;
 		
 	constructor(){
+		this.mostrarDatos=false;
 		this.pelicula= new Pelicula(1, "Batman vs Superman", "Zack Snider" , 2016);
 		this.debug();
 
@@ -25,6 +26,13 @@ export class AppComponent {
 
 	debug(){
 		console.log(this.pelicula);
+	}
+	onShowHide(){
+			this.mostrarDatos=true;
+	}
+
+	onHideShow(value){
+		this.mostrarDatos=value;
 	}
 }
 

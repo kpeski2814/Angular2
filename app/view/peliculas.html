@@ -1,5 +1,8 @@
       		<h1>{{titulo}}</h1>
-    				<ul>
+      		<p>Listado de Peliculas</p>
+      		<button (click)="onShowHide()" [class.showingData]="mostrarDatos===true">Mostrar</button>
+      		<button (click)="onHideShow(false)" [class.showingData]="mostrarDatos===false">Ocultar</button>
+    				<ul *ngIf="mostrarDatos===true">
 					<li>Titulo:<strong>{{pelicula.titulo}}</strong></li>
 					<li>Director:<strong>{{pelicula.director}}</strong></li>
 					<li>Año:<strong>{{pelicula.anio}}</strong></li>

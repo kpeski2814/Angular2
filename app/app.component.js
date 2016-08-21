@@ -27,11 +27,18 @@ System.register(['angular2/core', "./model/pelicula"], function(exports_1, conte
                 function AppComponent() {
                     //Creando variables publicas
                     this.titulo = "Peliculas con Angular2";
+                    this.mostrarDatos = false;
                     this.pelicula = new pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", 2016);
                     this.debug();
                 }
                 AppComponent.prototype.debug = function () {
                     console.log(this.pelicula);
+                };
+                AppComponent.prototype.onShowHide = function () {
+                    this.mostrarDatos = true;
+                };
+                AppComponent.prototype.onHideShow = function (value) {
+                    this.mostrarDatos = value;
                 };
                 AppComponent = __decorate([
                     core_1.Component({
