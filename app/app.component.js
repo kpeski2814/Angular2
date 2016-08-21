@@ -31,10 +31,10 @@ System.register(['angular2/core', "./model/pelicula"], function(exports_1, conte
                     this.pelicula = new pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", 2016);
                     this.peliculas = [
                         new pelicula_1.Pelicula(1, "Batman vs Superman", "Zack Snider", 2016),
-                        new pelicula_1.Pelicula(2, "El inprinsindible", "Datto Huyaser"),
+                        new pelicula_1.Pelicula(2, "El inprinsindible", "Datto Huyaser", 2011),
                         new pelicula_1.Pelicula(3, "La madre", "Abigail Breslin", 2012),
                         new pelicula_1.Pelicula(4, "Batman Ataca", "Veron Mick", 2000),
-                        new pelicula_1.Pelicula(5, "the girls", "Bruno Alnordo")
+                        new pelicula_1.Pelicula(5, "the girls", "Bruno Alnordo", 2001)
                     ];
                     this.debug();
                 }
