@@ -26,7 +26,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     this.titulo = "Hola Mundo";
                     this.pelicula = "Batman y Robin";
                     this.director = "Zack Snider";
-                    this.anio = "2016";
+                    this.anio = 2016;
                 }
                 AppComponent = __decorate([
                     core_1.Component({

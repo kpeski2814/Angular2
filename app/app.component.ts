@@ -17,10 +17,10 @@ import {Component} from 'angular2/core';
 // Clase del componente donde iran los datos y funcionalidades
 export class AppComponent { 
 	//Creando variables publicas
-	public titulo="Hola Mundo";
-	pelicula="Batman y Robin";
-	director="Zack Snider";
-	anio="2016";
+	public titulo:string="Hola Mundo";
+	public pelicula:string="Batman y Robin";
+	public director:string="Zack Snider";
+	public anio:number=2016;
 	
 }
 
